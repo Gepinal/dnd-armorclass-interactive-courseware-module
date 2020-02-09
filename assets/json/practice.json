@@ -1,0 +1,59 @@
+[
+    {
+        "questionNumber":1,
+        "question":"What is the base AC of most creatures?",
+        "choices":["100","10","8","20"],
+        "answer":1,
+        "explanations":["Not quite. Recall that AC, like most DND values, revolves around the d20. Review the definition of AC.",
+            "Correct! 10 is the average die roll on a d20, so the baseline is set at 10.",
+            "A little low there. Double check the section on target numbers.",
+            "Sorry, but, while AC as a parameter revolves around usage of the d20, the baseline isn't 20. Look over the section on target numbers."],
+        "links":["ac-definition","","targetnumbers","targetnumbers"]
+        },{
+        "questionNumber":2,
+        "question":"A creature is described as being \"pretty hard to hit\" by the DM. You can reasonably assume the AC is...",
+        "choices":["Between 5 and 9","Between 10 and 14","Between 15 and 19","Between 20 and 25"],
+        "answer":2,
+        "explanations":["You'd need some pretty ugly negative modifiers for an AC under 10 to be difficult to meet. Review the section on target numbers.",
+            "You're getting there. AC values over 10 are above average, but below a certain cutoff are just that: above average. Review the section on target numbers.",
+            "Like we covered, the general descriptor for difficulty of a check jumps up in increments of 5. Pretty hard indicates at least hard (15) difficulty, so we can assume the creature described has an AC of somewhere between 15 and 20 (difficult).",
+            "That's overshooting it a little. Check the section on target numbers again."],
+            "links":["targetnumbers","targetnumbers","","targetnumbers"]
+        },{
+        "questionNumber":3,
+        "question":"In combat, your rogue moves before you, and attacks a creature, rolling a 10 for their attack, after modifiers. It does not hit. You do the same, but roll a 13. The attack hits. What are the possible AC values for the monster?",
+        "choices":["10","11","12","13"],
+        "answer":0,
+        "explanations":["The only AC that isn't possible here is 10. Review the definition of a target number.",
+            "Getting close. Review the definition of a target number, specifically on who wins ties.",
+            "Well done! Worst case, you tied the creature, which means its AC is no more than 13. But if your rogue missed, then it can't be 10, because a tie would mean the rogue would hit."],
+            "links":["targetnumbers-definition","targetnumbers-definition",""]
+    },{
+        "questionNumber":4,
+        "question":"When attacking, who wins a tie: the defender or the attacker?",
+        "choices":["Defender wins","Attacker wins"],
+        "answer":1,
+        "explanations":["Review the definition of target numbers, specifically the \"meet or beat\" rule of thumb.",
+            "Attacker always wins ties, because the attacker is always the one rolling. Well done!"],
+            "links":["targetnumbers-ruleofthumb",""]
+    },{
+        "questionNumber":5,
+        "question":"A human of no significance is holding a shield. What is their AC?",
+        "choices":["12","10","15","8"],
+        "answer":0,
+        "explanations":["The answer is 12! We know that the base AC of most creatures is 10, and equipment can raise AC. Recall that shields add 2 to AC, so if the human is unskilled and unarmored, their AC is 12 when holding a shield.",
+            "Oops, that's the base AC! Remember that some equipment increases AC. Try looking at the AC modifiers section.",
+            "A little high. Try again-- before you do, review the section on AC modifiers.",
+            "Hmm, that's below the base AC. Review the section on AC modifiers."],
+            "links":["","ac-modifiers","ac-modifiers","ac-modifiers"]
+        },{
+        "questionNumber":6,
+        "question":"Could you expect a creature like a bat to have a lower, an average, or a higher AC?",
+        "choices":["lower","average","higher"],
+        "answer":2,
+        "explanations":["While it might seem to make sense that a tiny naked bat is all but defenseless, review the definition of AC.",
+            "Not exactly. AC isn't a literal representation of the armor a creature has on, it's more conceptual. Review the definition of AC.",
+            "Well done! Even though it's not by much; the stat block for a bat in 5e stating their AC is 12. It's higher because bats are swift and small."],
+            "links":["ac-definition","ac-definition",""]
+    }
+]
